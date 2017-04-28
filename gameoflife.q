@@ -1,5 +1,6 @@
 //This is game of life. Web version.
-@[system;"p 50602";{-1 "Couldn't open a port"}]
+@[system;"p 50602";{-1 "Couldn't open a port";exit 1}];
+-1"\n\tConnection: http://",string[.z.h],":50602/game.html";
 system["S ",1_(string[.z.T]except".:0")]
 .space.gen:0
 

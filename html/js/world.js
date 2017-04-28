@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 
 function connect(){
-	var ws = new WebSocket("ws://localhost:50602");
+	var ws = new WebSocket("ws://"+window.location.host);
 	$("#Start").click(function(){
 		ws.sendcmd("Start");				
 	});

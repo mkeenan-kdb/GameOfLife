@@ -8,6 +8,8 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 2. Any live cell with two or three live neighbours lives on to the next generation.
 3. Any live cell with more than three live neighbours dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+*My implementation is different to that which is stated above. Namely, the world for my critters is not infinite. Cells at the borders have less neighbours than cells in the middle.
 ------------
 
 Here it is in action;

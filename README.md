@@ -13,7 +13,5 @@ Conway's game of life implemented on a html canvas polling data from a q server 
     4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 ##### *My implementation is different to that which is stated above. Namely, the world for my critters is not infinite. Cells at the borders have less neighbours than cells in the middle.
-------------
 
-Here it is in action;
     ![alt tag](https://github.com/mkeenan-kdb/GameOfLife/blob/master/example.gif)
